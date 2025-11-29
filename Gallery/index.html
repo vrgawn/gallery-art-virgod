@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Virgod Gallery</title>
+
+  <!-- My Style -->
+  <link rel="stylesheet" href="./css/gallery.css">
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+   <header>
+    <div class="container">
+      <nav class="navbar">
+        <a href="#" class="logo">Art<span>Virgod</span></a>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#featured">Artist</a></li>
+          <li><a href="#quotes">Quotes</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-toggle">
+          <i class="fas fa-bars"></i>
+        </div>
+      </nav>
+    </div>
+  </header>
+  
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1>Ketika imajinasi bertemu dengan media gambar</h1>
+          <p>Mari kita jelajahi seni visual yang menakjubkan melalui beberapa koleksi saya. Di gallery ini saya akan berusaha untuk membuat karya seni yang indah dalam setiap goresan dan warna.</p>
+          <a href="#gallery" class="btn">Explore Gallery</a>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Gallery Section -->
+  <section id="gallery" class="gallery">
+    <div class="container">
+      <div class="section-title">
+        <h2>Our Gallery</h2>
+      </div>
+      <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">All Works</button>
+        <button class="filter-btn" data-filter="all">Paintings</button>
+        <button class="filter-btn" data-filter="all">Drawings</button>
+        <button class="filter-btn" data-filter="all">Digital Arts</button>
+        <button class="filter-btn" data-filter="all">Portraits</button>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item" data-category="painting">
+          <img src="https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1450&q=80" alt="Painting" class="gallery-img">
+            <div class="gallery-overlay">
+              <h3>Colorful</h3>
+              <p>Once 2025</p>
+            </div>
+        </div>
+        <div class="gallery-item" data-category="drawing">
+          <img src="https://images.unsplash.com/photo-1541961017774-22349e4a1262?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1458&q=80" alt="Abstract Painting" alt="drawing" class="gallery-img">
+          <div class="gallery-overlay">
+            <h3>Colorful</h3>
+            <p>Once 2025</p>
+           </div>
+        </div>
+        <div class="gallery-item" data-category="digital">
+          <img src="https://images.unsplash.com/photo-1542744095-fcf48d80b0fd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1452&q=80" alt="Abstract Painting" alt="digital" class="gallery-img">
+          <div class="gallery-overlay">
+            <h3>Colorful</h3>
+            <p>Once 2025</p>
+          </div>
+        </div>
+        <div class="gallery-item" data-category="portrait">
+          <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Abstract Painting" alt="portrait" class="gallery-img">
+          <div class="gallery-overlay">
+            <h3>Colorful</h3>
+            <p>Once 2025</p>
+          </div>
+        </div>
+        <div class="gallery-item" data-category="painting">
+          <img src="https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Abstract Painting" alt=" Lanscape Painting" class="gallery-img">
+          <div class="gallery-overlay">
+            <h3>Colorful</h3>
+            <p>Once 2025</p>
+          </div>
+        </div>
+        <div class="gallery-item" data-category="painting">
+          <img src="https://images.unsplash.com/photo-1550684376-efcbd6e3f031?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Abstract Painting" alt=" Lanscape Painting" class="gallery-img">
+          <div class="gallery-overlay">
+            <h3>Colorful</h3>
+            <p>Once 2025</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Featured Artist -->
+  <section id="featured" class="featured">
+    <div class="container">
+      <div class="section-title">
+        <h2>Featured Artist</h2>
+      </div>
+      <div class="artist-card">
+        <div class="artist-img">
+          <img src="#" alt="Featured Artist">
+        </div>
+        <div class="artist-info">
+          <h3>Virgiawan</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos molestias debitis vel distinctio magnam, commodi enim magni dicta omnis hic!</p>
+          <div class="artist-stats">
+            <div class="stat">
+              <span class="stat-number">99+</span>
+              <span class="stat-label">Karya</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">2</span>
+              <span class="stat-label">Pameran</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">0</span>
+              <span class="stat-label">Penghargaan</span>
+            </div>
+          </div>
+          <a href="../Portofolio/porto.html" class="btn">View Portofolio</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Quotes -->
+  <section id="quotes" class="quotes">
+    <div class="container">
+      <div class="section-title">
+        <h2>Apa yang dikatakan orang</h2>
+      </div>
+      <div class="quotes-container">
+        <div class="quote-slider">
+          <div class="quote-slide active">
+            <div class="quote-content">
+              <p class="quote-text">
+              Koleksi seni di virgod gallery benar-benar mengispirasi. Sebagai desainer, saya sering mencari referensi visual dan website ini manjadi sumber inspirasi yang tak ternilai.
+              </p>
+              <div class="quote-author">
+                <div class="author-img">
+                  <img src="#" alt="Virgiawan">
+                </div>
+                <div class="author-info">
+                  <h4>Virgiawan</h4>
+                  <p>Creation Director</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="quote-slide">
+            <div class="quote-content">
+              <p class="quote-text">
+                Koleksi seni di virgod gallery benar-benar mengispirasi. Sebagai desainer, saya sering mencari referensi visual dan website ini manjadi sumber inspirasi yang tak ternilai.
+              </p>
+              <div class="quote-author">
+                <div class="author-img">
+                  <img src="#" alt="Virgiawan">
+                </div>
+                <div class="author-info">
+                  <h4>Virgiawan</h4>
+                  <p>Creation Director</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="quote-slide">
+            <div class="quote-content">
+              <p class="quote-text">
+              Koleksi seni di virgod gallery benar-benar mengispirasi. Sebagai desainer, saya sering mencari referensi visual dan website ini manjadi sumber inspirasi yang tak ternilai.
+              </p>
+              <div class="quote-author">
+                <div class="author-img">
+                  <img src="#" alt="Virgiawan">
+                </div>
+                <div class="author-info">
+                  <h4>Virgiawan</h4>
+                  <p>Creation Director</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- CTA Section -->
+  <section class="cta">
+              <div class="container">
+                <h2>Ready to Showcase Your Art?</h2>
+                <p>Bergabunglah dengan komunitas seniman kami dan bagikan karya Anda kepada dunia. Dapatkan eksposur dan terhubung dengan kolektor seni dari seluruh penjuru.</p>
+                <a href="#" class="btn">Join Our Community</a>
+              </div>
+  </section>
+  
+  <!-- Footer -->
+  <footer id="contact">
+              <div class="container">
+                <div class="footer-content">
+                  <div class="footer-column">
+                    <h3>Virgod gallery</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, debitis. Debitis provident consectetur inventore minima.</p>
+                    <div class="social-links">
+                      <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                      <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                      <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                      <a href="#" class="social-link"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                  </div>
+                  <div class="footer-column">
+                    <h3>Quick links</h3>
+                    <ul class="footer-links">
+                      <li><a href="#home">Home</a></li>
+                      <li><a href="#gallery">Gallery</a></li>
+                      <li><a href="#featured">Artist</a></li>
+                      <li><a href="#quotes">Quotes</a></li>
+                      <li><a href="#">Blog</a></li>
+                    </ul>
+                  </div>
+                  <div class="footer-column">
+                    <h3>Categories</h3>
+                    <ul class="footer-links">
+                      <li><a href="#">Paintings</a></li>
+                      <li><a href="#">Drawings</a></li>
+                      <li><a href="#">Digital Art</a></li>
+                      <li><a href="#">Sculptures</a></li>
+                      <li><a href="#">Photography</a></li>
+                    </ul>
+                  </div>
+                  <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <ul class="footer-links">
+                      <li><i class="fas fa-map-marker-alt"></i> 123 Art Street, Creative City</li>
+                      <li><i class="fas fa-phone"></i> +62 123 456 789</li>
+                      <li><i class="fas fa-envelope"></i>tanyaaku@gallery.com</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="copyright">
+                  <p>&copy; 2025 Virgod Gallery. All rights reserved</p>
+                </div>
+              </div>
+  </footer>
+  
+  <!-- Modal -->
+  <div class="modal" id="imageModal">
+    <div class="modal-content">
+      <span class="modal-close">&times;</span>
+      <img src="#" alt="" class="modal-img">
+    </div>
+  </div>
+</body>
+</html>
